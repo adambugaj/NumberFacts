@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang=en>
+    
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Facts App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<!--    <link rel="stylesheet" type="text/css" href="x.css"> -->
+      <style>
+          body {
+              background-color: #434533;
+          }
+          #fact {
+              display: none;
+          }
+      
+      </style>
+  </head>
+    
+  <body class="bg-dark">
+      
+          <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card bg-faded text-muted mt-5 p-4">
+                        <h1>Number Facts App</h1>
+                        <p>Enter number to get a random fact:</p>
+                        <input type="number" id="numberInput" class="form-control" placeholder="Place number">
+                    </div> 
+                     <div id="fact" class="card bg-faded mt-1 p-4">
+                        <h4 class="card-title">Number fact: <span id="yourNumber"></span></h4>
+                         <p id="factText" class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+          </div>
+      
+
+      <!-- JS -->
+      <script type="text/javascript" src="numberfactsapp.js"></script>
+  </body>
+</html>
